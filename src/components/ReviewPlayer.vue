@@ -25,14 +25,14 @@ async function goToVideoTime(time: number) {
   await youtube.value.player.seekTo(time, true);
 }
 async function VIDEO() {
-  const v = 'https://www.youtube.com/watch?v=c5htalrruf8';
-  // const v = 'https://www.youtube.com/watch?v=c5htalrruf8';
+  const v = 'https://www.youtube.com/watch?v=GE_8MURePbo';
+  // const v = 'https://www.youtube.com/watch?v=GE_8MURePbo';
   // const v = await firebase.getVideo(props.videoId);
   const Video: Video = {
     name: 'demo',
-    ytUrl: 'www.youtube.com/watch?v=c5htalrruf8',
-    id: 'c5htalrruf8',
-    docId: 'c5htalrruf8',
+    ytUrl: 'www.youtube.com/watch?v=GE_8MURePbo',
+    id: 'GE_8MURePbo',
+    docId: 'GE_8MURePbo',
     creators: '',
     // name: v.data()?.name,
     // ytUrl: v.data()?.ytUrl,
